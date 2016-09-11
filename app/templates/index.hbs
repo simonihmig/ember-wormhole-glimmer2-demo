@@ -1,0 +1,11 @@
+<h1>Wormhole Glimmer2 Bug Demo</h1>
+
+{{#ember-wormhole to="worm"}}
+    <p>This is wormholed content.</p>
+
+  {{#if show}}
+    <p>This is conditional content.</p>
+  {{/if}}
+{{/ember-wormhole}}
+
+<button {{action "toggle"}}>Show content</button>
